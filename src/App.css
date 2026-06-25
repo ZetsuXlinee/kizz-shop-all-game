@@ -1,0 +1,528 @@
+/* --- TAMBAHAN DARI LUIZ --- */
+body {
+  background-color: #0b0b0b;
+  /* Warna latar belakang gelap */
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  /* Opsional, biar font lebih modern */
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #111111;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  height: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid #222;
+}
+
+/* LOGO */
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  /* Jarak antara gambar dan teks jika ada */
+}
+
+.main-logo {
+  height: 55px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Teks Logo Emas (Berdasarkan diskusi sebelumnya) */
+.logo-text {
+  font-size: 20px;
+  font-weight: 800;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.logo-text span {
+  color: #d4af37;
+}
+
+/* SEARCH */
+.search-container {
+  flex: 1;
+  margin: 0 30px;
+}
+
+.search-bar {
+  width: 100%;
+  background: #1b1b1b;
+  border: 1px solid #2a2a2a;
+  padding: 12px 20px;
+  border-radius: 12px;
+  color: white;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.search-bar::placeholder {
+  color: #777;
+}
+
+.search-bar:focus {
+  border-color: #d4af37;
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.2);
+}
+
+/* NAV LINKS */
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: #bcbcbc;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #d4af37;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* HERO */
+.hero-section {
+  margin-top: 10px;
+  border-radius: 22px;
+  overflow: hidden;
+  border: 1px solid #1f1f1f;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.banner-img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+}
+
+/* WELCOME */
+.welcome-box {
+  text-align: center;
+  padding: 45px 0 35px;
+}
+
+.welcome-box h1 {
+  font-size: 38px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.welcome-box p {
+  color: #d4af37;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+/* SECTION TITLE */
+.section-title {
+  margin-bottom: 30px;
+}
+
+.section-title h3 {
+  font-size: 22px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.underline {
+  width: 60px;
+  height: 4px;
+  border-radius: 999px;
+  background: #d4af37;
+}
+
+/* GAME GRID */
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 25px;
+}
+
+/* GAME CARD */
+.game-card {
+  background: #181818;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #252525;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+/* HOVER DENGAN SHADOW KUNING EMAS */
+.game-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  border-color: #d4af37;
+  /* Shadow Kuning Emas sesuai permintaan lu */
+  box-shadow:
+    0 10px 25px rgba(0, 0, 0, 0.6),
+    0 0 20px rgba(212, 175, 55, 0.4);
+}
+
+/* IMAGE */
+.card-thumb {
+  width: 100%;
+  height: 210px;
+  overflow: hidden;
+}
+
+.card-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+/* IMAGE HOVER */
+.game-card:hover .card-thumb img {
+  transform: scale(1.08);
+}
+
+/* DETAILS */
+.card-details {
+  padding: 15px;
+  text-align: center;
+}
+
+.card-details h4 {
+  color: white;
+  font-size: 15px;
+  margin-bottom: 6px;
+  transition: 0.3s ease;
+}
+
+.card-details p {
+  color: #d4af37;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* TITLE HOVER */
+.game-card:hover .card-details h4 {
+  color: #d4af37;
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 60px;
+  padding: 40px;
+  text-align: center;
+  color: #666;
+  font-size: 13px;
+  border-top: 1px solid #222;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .search-container {
+    display: none;
+  }
+
+  .navbar {
+    padding: 0 20px;
+  }
+
+  .banner-img {
+    height: 200px;
+  }
+
+  .games-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+
+  .card-thumb {
+    height: 170px;
+  }
+}
+
+/* --- DETAIL PAGE STYLES --- */
+.detail-page {
+  padding-top: 20px;
+}
+
+.back-link {
+  color: #d4af37;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.game-title {
+  color: white;
+  margin: 0;
+}
+
+.form-section {
+  background: #181818;
+  padding: 25px;
+  border-radius: 20px;
+  border: 1px solid #252525;
+  margin-bottom: 25px;
+}
+
+.step-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.step-num {
+  background: #d4af37;
+  color: black;
+  padding: 5px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.form-input {
+  width: 100%;
+  background: #1b1b1b;
+  border: 1px solid #2a2a2a;
+  padding: 12px 7px;
+  border-radius: 12px;
+  color: white;
+  outline: none;
+}
+
+.input-hint {
+  color: #666;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.nominal-card {
+  padding: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.price {
+  color: #d4af37;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.btn-buy {
+  width: 100%;
+  padding: 18px;
+  background: #d4af37;
+  border: none;
+  border-radius: 15px;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-buy:hover {
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.4);
+  transform: translateY(-2px);
+}
+
+.payment-grid {
+  display: flex;
+  flex-wrap: wrap;
+  /* Wajib biar gak ke samping terus */
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.payment-card {
+  flex: 1 1 calc(50% - 12px);
+  /* Di HP jadi 2 kolom */
+  min-width: 140px;
+  background: #2b2f3e;
+  /* Warna gelap ala store gaming */
+  border: 1px solid #3f4458;
+  border-radius: 10px;
+  padding: 12px;
+  cursor: pointer;
+  position: relative;
+  transition: 0.3s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.payment-card.active {
+  border-color: #007bff;
+  background: #343a50;
+}
+
+.payment-info img {
+  height: 25px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.payment-text .name {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+}
+
+.payment-text .fee {
+  font-size: 11px;
+  color: #a0a0a0;
+}
+
+.status-tag {
+  font-size: 10px;
+  background: #1c1f2a;
+  padding: 4px 8px;
+  border-radius: 5px;
+  color: #4cd137;
+}
+
+/* Container Utama */
+.payment-container {
+  margin: 20px 0;
+  padding: 15px;
+  background: #1e2128;
+  /* Warna background gelap biar kontras */
+  border-radius: 12px;
+}
+
+.section-title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* Grid Sistem */
+.payment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100%, 1row));
+  /* Default 1 kolom untuk mobile */
+  gap: 12px;
+}
+
+/* Card Payment */
+.payment-card {
+  background: #2a2e38;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.payment-card:hover {
+  background: #323743;
+  transform: translateY(-2px);
+}
+
+/* State Saat Dipilih (Active) */
+.payment-card.active {
+  border-color: #f7b02b;
+  /* Warna kuning khas Ampera Store ID */
+  background: #323743;
+}
+
+/* Konten di Dalam Card */
+.payment-content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.payment-img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  background: white;
+  /* Putih agar logo pembayaran lebih jelas */
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.payment-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-name {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.payment-fee {
+  color: #a0aec0;
+  font-size: 0.85rem;
+  margin-top: 2px;
+}
+
+/* Tanda Centang */
+.check-mark {
+  background: #f7b02b;
+  color: #1a202c;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.8rem;
+  box-shadow: 0 0 10px rgba(247, 176, 43, 0.4);
+}
+
+/* Responsif untuk Tablet/PC */
+@media (min-width: 768px) {
+  .payment-grid {
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 kolom di layar besar */
+  }
+}
+
+/* Pastikan tingginya ada dan warnanya bener */
+.app-wrapper {
+  min-height: 100vh;
+  background-color: #1a1a1a;
+  /* Misalnya warna gelap store lu */
+  color: white;
+  /* Biar teksnya kelihatan */
+}
+
+html {
+  scroll-behavior: smooth;
+}
