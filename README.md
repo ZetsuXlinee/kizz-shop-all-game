@@ -33,15 +33,11 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ZetsuXlinee&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-
-<br>
-
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZetsuXlinee&theme=tokyonight&hide_border=true" />
 
 <br>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZetsuXlinee&layout=compact&theme=tokyonight&hide_border=true" />
+Total Contributions: 239 | Current Streak: 1 Day | Longest: 3 Days
 
 </div>
 
