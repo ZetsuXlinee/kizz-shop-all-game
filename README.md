@@ -2,7 +2,7 @@
 
 <div align="center">
   
-# Hi there, I'm Kizzu 👋
+# Hi there, I'm Zetsu 👋
 ### The Mind Behind CiKiZz Shop
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0096FF&center=true&vCenter=true&width=700&lines=Building+kizzshopgame.store+with+passion+%F0%9F%9A%80;Fullstack+Developer+%26+Entrepreneur;Let's+build+something+awesome+together!)](https://git.io/typing-svg)
@@ -29,34 +29,28 @@
 
 ### 🛠️ My Tech Arsenal
 
-#### Languages & Frameworks
+**Languages & Frameworks**
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-#### Database & Tools
+**Database & Tools**
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-
-#### Payment & API
-![Midtrans](https://img.shields.io/badge/Midtrans-Payment-00A99D?style=for-the-badge)
-![Telegram API](https://img.shields.io/badge/Telegram-Bot_API-2CA5E0?style=for-the-badge&logo=telegram)
 
 ### 🏆 GitHub Trophy & Stats
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=[USERNAME]&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4" />
+  <img src="https://github-profile-trophy.vercel.app/?username=ZetsuXlinee&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4" />
   <br><br>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=[USERNAME]&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" />
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=[USERNAME]&theme=tokyonight&hide_border=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ZetsuXlinee&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" />
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=ZetsuXlinee&theme=tokyonight&hide_border=true" />
   <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=[USERNAME]&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZetsuXlinee&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
   <br><br>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=[USERNAME]&theme=tokyo-night&hide_border=true&area=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ZetsuXlinee&theme=tokyo-night&hide_border=true&area=true" />
 </div>
 
 ### 🔥 Featured Projects
@@ -65,23 +59,14 @@
 | :--- | :--- | :--- | :--- |
 | **kizzshopgame.store** | Main Game Topup Store - Trusted & Fast | Laravel, MySQL, Midtrans | [Live Demo](https://kizzshopgame.store) |
 | **CS Bot System** | Auto-reply Telegram & WhatsApp CS | NodeJS, Telegram API | Private |
-| **Auto Restart Script** | Cron job to keep server stable 24/7 | Bash, Linux | [Repo](#) |
-| **Pixel Poster Generator** | Generator for CiKiZz Shop Warning Poster | Python, AI | [Repo](#) |
-
-> **📌 TIPS:** Ganti link `#` di atas dengan link repo asli lu setelah di-pin!
-
-### 💡 What I Can Do For You
-- ✅ Build a Professional Game Topup Website like CiKiZz Shop
-- ✅ Integrate Payment Gateway (Midtrans, Tripay, Xendit)
-- ✅ Create Telegram / WhatsApp Bot for Customer Service
-- ✅ Server Setup & Optimization (Nginx, VPS, Auto Restart)
+| **Auto Restart Script** | Cron job to keep server stable 24/7 | Bash, Linux | [Repo](https://github.com/ZetsuXlinee) |
 
 ### 📫 Let's Connect!
 <div align="center">
   
   **TELEGRAM & WHATSAPP ARE OFFICIAL CUSTOMER SERVICE ✅**
   
-  Feel free to contact me for collaboration or just a chat!
+  Feel free to contact me for collaboration!
   
   <i>"Terima kasih atas kunjungannya"</i>
 
